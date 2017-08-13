@@ -1,0 +1,12 @@
+go to website to repository on GITHUB
+cd User/Desktop
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+touch readme.md
+vi readme.md
+:wq
+git add .
+git commit -m "version one"
+git remote add origin http://gitbub.com/********.git
+git push -u origin  master
+
